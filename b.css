@@ -1,0 +1,30 @@
+.botao{
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: transform 0.2s ease; /* Animação suave incluída para o transform */
+    /*o transition serve para quando o botão for clicado (active) tenha um efeito de clique suave durante o tempo estipulado*/
+}
+
+.botao:hover{
+    opacity: 0.8;
+}
+
+.botao:active{
+    transform: scale(0.70); /*o botão ao ser clicado muda de tamanho*/
+}
+
+.botaoDiv{
+    display: flex;
+    justify-content: center;
+}
+
+/*se quisermos por exemplo que o botão mude a cor permanentemente ao ser clicado basta adicionarmos a ele uma classe*/
+
+.activo{
+    background-color: brown;
+}
